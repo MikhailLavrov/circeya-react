@@ -7,6 +7,7 @@ const StyledInfoSection = styled.section`
   flex-direction: column;
 
   @media (min-width: 1024px) {
+    margin-bottom: 80px;
     align-items: center;
     gap: 100px;
   }
@@ -26,6 +27,7 @@ const InfoSection = ({content, headerLevel, headerText}) => {
           infoText1={item.infoText1}
           infoText2={item.infoText2}
           smallImg={item.smallImg}
+          reversed={item.reversed}
       />)
       }
     </StyledInfoSection>

@@ -3,7 +3,7 @@ import Header from './components/Header.jsx';
 import './App.css';
 import InfoSection from './components/InfoSection/InfoSection.jsx';
 import Footer from './components/Footer.jsx';
-import {topSection} from './content/content.js';
+import {topSection, bottomSection} from './content/content.js';
 
 const { Content } = Layout;
 
@@ -16,6 +16,10 @@ const App = () => {
         <InfoSection content={topSection.content}
                        headerLevel={topSection.headerLevel}
                        headerText={topSection.headerText} 
+                       />
+        <InfoSection content={bottomSection.content}
+                       headerLevel={bottomSection.headerLevel}
+                       headerText={bottomSection.headerText} 
                        />
       </Content>
       <Footer />
