@@ -5,8 +5,13 @@ import InfoBlockText from './InfoBlockText'
 const StyledInfoBlock = styled.div`
   display: flex;
   flex-direction: column;
+
   @media (min-width: 1024px) {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 105px;
   }
 `
 

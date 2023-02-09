@@ -15,6 +15,10 @@ const Image = styled.img`
     min-height: 370px;
     object-fit: cover;
     width: 100%;
+
+    @media (min-width: 1024px) {
+      aspect-ratio: 2/1.08;
+    }
 `
 
 const InfoBlockImage = ({image, smallImg}) => {

@@ -5,6 +5,11 @@ import Title from '../common/Title'
 const StyledInfoSection = styled.section`
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1024px) {
+    align-items: center;
+    gap: 100px;
+  }
 `
 
 const InfoSection = ({content, headerLevel, headerText}) => {

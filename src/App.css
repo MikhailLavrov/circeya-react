@@ -12,6 +12,13 @@
 .content {
   flex: 1;
   padding: 52px 0 80px;
+  /* max-width: 1920px; */
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding: 180px 0 80px;
+  }
 }
 
 /* Reboot styles */
