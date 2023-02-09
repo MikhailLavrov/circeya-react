@@ -3,7 +3,7 @@ import Header from './components/Header.jsx';
 import './App.css';
 import InfoSection from './components/InfoSection/InfoSection.jsx';
 import Footer from './components/Footer.jsx';
-import content from './content/content.js';
+import {topSection} from './content/content.js';
 
 const { Content } = Layout;
 
@@ -13,8 +13,10 @@ const App = () => {
       <Header />
       <Content className='content'>
         <h1 className='visually-hidden'>Circeya homepage</h1> 
-        <InfoSection content={content.topSectionContent} />
-        <InfoSection content={content.bottomSectionContent} />
+        <InfoSection content={topSection.content}
+                       headerLevel={topSection.headerLevel}
+                       headerText={topSection.headerText} 
+                       />
       </Content>
       <Footer />
     </Layout>

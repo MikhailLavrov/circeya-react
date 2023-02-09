@@ -1,14 +1,16 @@
 import styled from 'styled-components'
 import InfoBlock from './InfoBlock';
+import Title from '../common/Title'
 
 const StyledInfoSection = styled.section`
   display: flex;
   flex-direction: column;
 `
 
-const InfoSection = ({content}) => {
+const InfoSection = ({content, headerLevel, headerText}) => {
   return (
     <StyledInfoSection>
+      <Title headerLevel={headerLevel} children={headerText} />
       {
         content.map(item => 
         <InfoBlock 
