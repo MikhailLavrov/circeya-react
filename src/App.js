@@ -1,8 +1,9 @@
 import { Layout } from 'antd';
 import Header from './components/Header.jsx';
 import './App.css';
-import InfoBlock from './components/InfoBlock/InfoBlock.jsx';
+import InfoSection from './components/InfoSection/InfoSection.jsx';
 import Footer from './components/Footer.jsx';
+import content from './content/content.js';
 
 const { Content } = Layout;
 
@@ -11,9 +12,9 @@ const App = () => {
     <Layout className="layout">
       <Header />
       <Content className='content'>
-        <InfoBlock />
-        Slider
-        Description
+        <h1 className='visually-hidden'>Circeya homepage</h1> 
+        <InfoSection content={content.topSectionContent} />
+        <InfoSection content={content.bottomSectionContent} />
       </Content>
       <Footer />
     </Layout>
