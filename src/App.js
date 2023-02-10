@@ -1,5 +1,5 @@
-import './App.css';
-import './fonts.css';
+import './assets/css/App.css';
+import './assets/css/fonts.css';
 import Header from './components/Header.jsx';
 import InfoSection from './components/InfoSection/InfoSection.jsx';
 import Footer from './components/Footer.jsx';
