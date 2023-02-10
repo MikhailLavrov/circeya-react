@@ -40,6 +40,7 @@ const Logo = styled.div`
 const PhoneLink = styled.a`
   display: flex;
   align-items: center;
+  font-family: 'Manrope';
 
   & img {
     @media (min-width: 1024px) {

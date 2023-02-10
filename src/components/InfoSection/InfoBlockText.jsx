@@ -18,6 +18,7 @@ const TextContentBlock = styled.div`
     font-weight: 500;
     font-size: 24px;
     line-height: 1.2;
+    font-family: 'Orchidea';
     /* or 29px */
     color: #141414;
     
@@ -32,6 +33,7 @@ const TextContentBlock = styled.div`
 
     display: flex;
     align-items: center;
+    font-family: 'Manrope';
 
     font-weight: 500;
     font-size: 14px;

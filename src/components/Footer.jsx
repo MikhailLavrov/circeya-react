@@ -11,6 +11,7 @@ const StyledFooter = styled.footer`
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  font-family: 'Roboto';
 `
 
 const Footer = () => {

@@ -14,12 +14,14 @@ const StyledTag = styled.h1`
   font-size: 24px;
   line-height: 1.3;
   font-weight: 500;
+  font-family: 'Orchidea';
 
   color: #141414;
   text-transform: uppercase;
 
   @media (min-width: 1024px) {
     margin-bottom: 0;
+    margin: 0 auto;
     max-width: 1365px;
     
     font-size: 48px;

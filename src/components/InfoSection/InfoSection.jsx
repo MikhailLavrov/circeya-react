@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import InfoBlock from './InfoBlock';
-import Title from '../common/Title'
+import Title from '../Title'
+import React from 'react';
 
 const StyledInfoSection = styled.section`
   display: flex;
@@ -19,7 +20,7 @@ const InfoSection = ({content, headerLevel, headerText}) => {
       <Title headerLevel={headerLevel} children={headerText} />
       {
         content.map(item => 
-        <InfoBlock 
+        <InfoBlock key={Math.random()}
           headerLevel={item.headerLevel}
           headerText={item.headerText}
           image={item.image}
