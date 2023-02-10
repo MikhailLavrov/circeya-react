@@ -3,10 +3,10 @@ import './assets/css/fonts.css';
 import Header from './components/Header.jsx';
 import InfoSection from './components/InfoSection/InfoSection.jsx';
 import Footer from './components/Footer.jsx';
-import {topSection, bottomSection} from './content/content.js';
+import { topSection, bottomSection } from './mockData/content.js';
 import styled from 'styled-components'
-import {SwiperSlider} from './components/SwiperSlider';
-import { sliderContent } from './content/sliderContent';
+import { SwiperSlider } from './components/SwiperSlider';
+import { sliderContent } from './mockData/sliderContent';
 
 const Layout = styled.div`
   min-height: 100vh !important;
