@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/circeya-react/static/css/main.c8ba5b5d.css",
+    "main.css": "/circeya-react/static/css/main.513488ca.css",
     "main.js": "/circeya-react/static/js/main.6de2bceb.js",
     "static/js/787.2acf9a08.chunk.js": "/circeya-react/static/js/787.2acf9a08.chunk.js",
     "static/media/orchidea_pro_medium.woff": "/circeya-react/static/media/orchidea_pro_medium.9892255ed8a0c4a09293.woff",
@@ -19,12 +19,12 @@
     "static/media/main-logo.svg": "/circeya-react/static/media/main-logo.634ec990833591dcbe6cadd6ed21a407.svg",
     "static/media/phone-icon.svg": "/circeya-react/static/media/phone-icon.22375382da5efc7c96806d0dcb0a5817.svg",
     "index.html": "/circeya-react/index.html",
-    "main.c8ba5b5d.css.map": "/circeya-react/static/css/main.c8ba5b5d.css.map",
+    "main.513488ca.css.map": "/circeya-react/static/css/main.513488ca.css.map",
     "main.6de2bceb.js.map": "/circeya-react/static/js/main.6de2bceb.js.map",
     "787.2acf9a08.chunk.js.map": "/circeya-react/static/js/787.2acf9a08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8ba5b5d.css",
+    "static/css/main.513488ca.css",
     "static/js/main.6de2bceb.js"
   ]
 }
